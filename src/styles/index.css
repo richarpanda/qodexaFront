@@ -1,0 +1,61 @@
+@import "./theme.css";
+@import "tailwindcss";
+
+:root {
+  font-family: 'Inter', sans-serif;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Syne', sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #000;
+  color: #fff;
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* ── Cinematic scroll feel ────────────────────────────────────────────────── */
+
+/*
+ * Smooth overscroll on mobile — prevents jarring bounce that breaks the
+ * sticky scroll story experience.
+ */
+html, body {
+  overscroll-behavior: none;
+}
+
+/*
+ * Hide scrollbar for the main scroll container while keeping scroll
+ * functional. The custom progress bar in ScrollStory replaces it.
+ */
+::-webkit-scrollbar {
+  width: 0;
+  background: transparent;
+}
+
+/* ── Perspective utility ─────────────────────────────────────────────────── */
+.perspective-1400 {
+  perspective: 1400px;
+}
+
+/* ── Respect reduced motion ──────────────────────────────────────────────── */
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+  /* Keep opacity transitions so phase crossfades still work */
+  .phase-transition {
+    transition-duration: 150ms !important;
+  }
+}
+
