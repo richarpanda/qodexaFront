@@ -19,7 +19,7 @@ import { FAQSection } from "@/components/faq-section"
 const faqs = [
   {
     question: "¿Cuánto cuesta implementar un chatbot?",
-    answer: "Los precios varían según la complejidad. Un chatbot básico para FAQs inicia desde $9,900 MXN, mientras que soluciones avanzadas con IA conversacional van desde $24,900 MXN."
+    answer: "Los precios varían según la complejidad. Un chatbot básico para FAQs inicia desde $8,900 MXN, mientras que soluciones avanzadas con IA conversacional van desde $11,200 MXN."
   },
   {
     question: "¿Funciona con WhatsApp?",
@@ -280,8 +280,8 @@ export default function ChatbotsPage() {
           <div className="grid md:grid-cols-3 gap-8 mb-16">
             <PricingCard
               title="Chatbot Básico"
-              price="$9,900"
-              originalPrice="$14,900"
+              price="$4,900"
+              originalPrice="$8,900"
               discount="-33%"
               features={[
                 "Respuestas a FAQs",
@@ -295,8 +295,8 @@ export default function ChatbotsPage() {
             />
             <PricingCard
               title="Chatbot IA Pro"
-              price="$24,900"
-              originalPrice="$34,900"
+              price="$11,200"
+              originalPrice="$15,900"
               discount="-29%"
               features={[
                 "IA conversacional GPT",
@@ -312,8 +312,8 @@ export default function ChatbotsPage() {
             />
             <PricingCard
               title="Asistente Virtual"
-              price="$49,900"
-              originalPrice="$69,900"
+              price="$22,200"
+              originalPrice="$30,900"
               discount="-28%"
               features={[
                 "IA avanzada personalizada",
@@ -342,7 +342,7 @@ export default function ChatbotsPage() {
       />
 
       {/* Limited Offer */}
-      <section className="py-24 bg-secondary">
+      {/* <section className="py-24 bg-secondary">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <LimitedOffer
             title="Pack Atención 360"
@@ -353,7 +353,7 @@ export default function ChatbotsPage() {
             ctaHref="https://wa.me/5215540279851?text=Hola,%20me%20interesa%20el%20Pack%20Atención%20360"
           />
         </div>
-      </section>
+      </section> */}
 
       {/* CTA */}
       <CTASection

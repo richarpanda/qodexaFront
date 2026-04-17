@@ -126,7 +126,7 @@ export function PricingCard({
 
 export function ComparisonTable() {
   const features = [
-    { feature: "Tiempo de entrega", us: "2-4 semanas", others: "2-3 meses" },
+    { feature: "Tiempo de entrega", us: "1-4 semanas", others: "2-3 meses" },
     { feature: "Comunicacion directa", us: "Con el equipo", others: "Con intermediarios" },
     { feature: "Revisiones", us: "Ilimitadas", others: "2-3 max" },
     { feature: "Soporte post-lanzamiento", us: "3 meses incluidos", others: "Costo extra" },

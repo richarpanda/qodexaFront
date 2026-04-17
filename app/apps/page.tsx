@@ -19,7 +19,7 @@ import { FAQSection } from "@/components/faq-section"
 const faqs = [
   {
     question: "¿Cuanto cuesta desarrollar una app?",
-    answer: "Depende de la complejidad. Un MVP basico puede iniciar desde $49,900 MXN, mientras que apps empresariales completas van desde $150,000 MXN. Te damos un presupuesto detallado despues del discovery."
+    answer: "Depende de la complejidad. Un MVP basico puede iniciar desde $24,900 MXN, mientras que apps empresariales completas van desde $120,900 MXN. Te damos un presupuesto detallado despues del discovery."
   },
   {
     question: "¿Cuanto tiempo toma desarrollar una app?",
@@ -298,8 +298,8 @@ export default function AppsPage() {
           <div className="grid md:grid-cols-3 gap-8 mb-16">
             <PricingCard
               title="MVP Starter"
-              price="$49,900"
-              originalPrice="$69,900"
+              price="$17,600"
+              originalPrice="$24,900"
               discount="-29%"
               features={[
                 "Funcionalidades core",
@@ -313,8 +313,8 @@ export default function AppsPage() {
             />
             <PricingCard
               title="App Profesional"
-              price="$99,900"
-              originalPrice="$139,900"
+              price="$35,400"
+              originalPrice="$49,900"
               discount="-29%"
               features={[
                 "Funcionalidades avanzadas",
@@ -330,8 +330,8 @@ export default function AppsPage() {
             />
             <PricingCard
               title="Plataforma Enterprise"
-              price="$199,900"
-              originalPrice="$279,900"
+              price="$87,000"
+              originalPrice="$120,900"
               discount="-28%"
               features={[
                 "Arquitectura escalable",
@@ -360,7 +360,7 @@ export default function AppsPage() {
       />
 
       {/* Limited Offer */}
-      <section className="py-24 bg-white">
+      {/* <section className="py-24 bg-white">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <LimitedOffer
             title="Pack Lanzamiento Startup"
@@ -371,7 +371,7 @@ export default function AppsPage() {
             ctaHref="https://wa.me/5215540279851?text=Hola,%20me%20interesa%20el%20Pack%20Lanzamiento%20Startup"
           />
         </div>
-      </section>
+      </section> */}
 
       {/* CTA */}
       <CTASection

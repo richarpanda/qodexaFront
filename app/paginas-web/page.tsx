@@ -20,7 +20,7 @@ import { FAQSection } from "@/components/faq-section"
 const faqs = [
   {
     question: "¿Cuánto tiempo toma desarrollar mi página web?",
-    answer: "Dependiendo de la complejidad, entre 2 a 4 semanas. Landing pages simples pueden estar listas en 1 semana. Siempre te damos una fecha estimada antes de iniciar."
+    answer: "Dependiendo de la complejidad, de 1 dia hasta 4 semanas. Landing pages simples pueden estar listas en 1 semana. Siempre te damos una fecha estimada antes de iniciar."
   },
   {
     question: "¿Puedo hacer cambios después de que esté lista?",
@@ -314,8 +314,8 @@ export default function PaginasWebPage() {
           <div className="grid md:grid-cols-3 gap-8 mb-16">
             <PricingCard
               title="Landing Page"
-              price="$8,900"
-              originalPrice="$11,900"
+              price="$3,900"
+              originalPrice="$5,200"
               discount="-25%"
               features={[
                 "1 página de aterrizaje",
@@ -330,8 +330,8 @@ export default function PaginasWebPage() {
             />
             <PricingCard
               title="Sitio Profesional"
-              price="$15,900"
-              originalPrice="$19,900"
+              price="$5,900"
+              originalPrice="$7,500"
               discount="-20%"
               features={[
                 "Hasta 5 páginas",
@@ -347,8 +347,8 @@ export default function PaginasWebPage() {
             />
             <PricingCard
               title="E-commerce"
-              price="$29,900"
-              originalPrice="$35,900"
+              price="$15,200"
+              originalPrice="$17,200"
               discount="-17%"
               features={[
                 "Tienda online completa",
@@ -390,9 +390,9 @@ export default function PaginasWebPage() {
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <LimitedOffer
             title="Pack Lanzamiento Completo"
-            description="Landing page + Dominio + Hosting + Logo básico + Redes sociales configuradas"
-            originalPrice="$18,000"
-            offerPrice="$12,900"
+            description="Landing page + Dominio + Hosting"
+            originalPrice="$5,000"
+            offerPrice="$3,900"
             ctaText="Quiero este pack"
             ctaHref="https://wa.me/5215540279851?text=Hola,%20me%20interesa%20el%20Pack%20Lanzamiento%20Completo"
           />
