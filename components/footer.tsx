@@ -63,11 +63,11 @@ export function Footer() {
               </li>
               <li>
                 <a
-                  href="mailto:hola@qodexa.com"
+                  href="mailto:contacto@qodexa.com.mx"
                   className="flex items-center gap-2 text-white/60 hover:text-[#00C2FF] transition-colors"
                 >
                   <Mail className="h-4 w-4" />
-                  hola@qodexa.com
+                  contacto@qodexa.com.mx
                 </a>
               </li>
             </ul>

@@ -119,7 +119,7 @@ export function ConsoleEasterEgg() {
     const styles = "color: #00C2FF; font-weight: bold; font-size: 10px; font-family: monospace;"
 
     console.log(asciiArt, styles)
-    console.log("%c💡 ¿Interesado en trabajar con nosotros? Contactanos: hola@qodexa.com", "color: #00E5A0; font-size: 14px;")
+    console.log("%c💡 ¿Interesado en trabajar con nosotros? Contactanos: contacto@qodexa.com.mx", "color: #00E5A0; font-size: 14px;")
     console.log("%c🎮 Prueba el codigo Konami: ↑↑↓↓←→←→BA", "color: #FFA500; font-size: 12px;")
     console.log("%c🔧 Desarrollado con Next.js, Tailwind CSS y Framer Motion", "color: #888; font-size: 11px;")
   }, [])

@@ -83,7 +83,7 @@ vercel --prod
 ## Contacto
 
 - WhatsApp: +52 1 55 4027 9851
-- Email: hola@qodexa.com
+- Email: contacto@qodexa.com.mx
 
 ---
 
