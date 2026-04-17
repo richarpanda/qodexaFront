@@ -97,7 +97,7 @@ export function HeroSection({
           }}
         >
           <Image
-            src="/logo.png"
+            src="/logo_qodexa.png"
             alt=""
             width={180}
             height={180}

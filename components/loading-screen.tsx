@@ -33,7 +33,7 @@ export function LoadingScreen() {
               className="mb-8"
             >
               <Image
-                src="/logo.png"
+                src="/logo_qodexa.png"
                 alt="Qodexa"
                 width={120}
                 height={120}

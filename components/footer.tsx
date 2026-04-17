@@ -9,8 +9,7 @@ export function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-12 mb-12">
           <div>
             <Link href="/" className="flex items-center gap-3">
-              <Image src="/logo.png" alt="Qodexa" width={48} height={48} className="w-12 h-12" />
-              <span className="text-2xl font-bold tracking-tight">QODEXA</span>
+              <Image src="/logo_qodexa.png" alt="Qodexa" width={120} height={40} />
             </Link>
             <p className="mt-4 text-white/60 max-w-xs">
               Tu equipo de tecnologia, sin contratar uno. Desarrollamos software que impulsa tu negocio.

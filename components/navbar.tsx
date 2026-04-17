@@ -43,13 +43,12 @@ export function Navbar() {
               whileHover={{ scale: 1.05, rotate: 5 }}
               transition={{ type: "spring", stiffness: 400 }}
             >
-              <Image src="/logo.png" alt="Qodexa" width={40} height={40} className="w-10 h-10" />
+              <Image src="/logo_qodexa.png" alt="Qodexa" width={120} height={40}  />
             </motion.div>
             <span className={cn(
               "text-xl font-extrabold tracking-wider transition-colors",
               isScrolled ? "text-[#0A1628]" : "text-white"
             )}>
-              QODEXA
             </span>
           </Link>
 

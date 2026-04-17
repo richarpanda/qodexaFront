@@ -23,7 +23,7 @@ export const metadata: Metadata = {
   generator: 'v0.app',
   icons: {
     icon: '/favicon.ico',
-    apple: '/logo.png',
+    apple: '/logo_qodexa.png',
   },
 }
 
@@ -35,7 +35,7 @@ export default function RootLayout({
   return (
     <html lang="es" className="bg-background scroll-smooth" data-scroll-behavior="smooth">
       <body className={`${geistSans.variable} ${geistMono.variable} font-sans antialiased`}>
-        <LoadingScreen />
+        {/* <LoadingScreen /> */}
         <ScrollProgress />
         <ParticlesBackground />
         <KonamiCode />
