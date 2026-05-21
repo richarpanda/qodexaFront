@@ -13,7 +13,7 @@ import { SectionDivider } from "@/components/section-divider"
 import { CTASection } from "@/components/cta-section"
 import { AnimatedSection, StaggerContainer, StaggerItem } from "@/components/animated-section"
 import { PromoBanner } from "@/components/promo-banner"
-import { TrustBadges, GuaranteeBadge } from "@/components/trust-badges"
+import { TrustBadges } from "@/components/trust-badges"
 import { SpotsCounter, PricingCard, ComparisonTable, LimitedOffer } from "@/components/urgency-elements"
 import { FAQSection } from "@/components/faq-section"
 
@@ -106,14 +106,14 @@ export default function PaginasWebPage() {
 
   return (
     <main className="min-h-screen">
-      <PromoBanner
+      {/* <PromoBanner
         text="Esta semana:"
         highlight="20% OFF en todas las páginas web"
         ctaText="Aprovechar"
         ctaHref="https://wa.me/5215540279851?text=Hola,%20vi%20la%20promoción%20del%2020%25%20OFF%20en%20páginas%20web"
         endDate={promoEndDate}
         variant="urgency"
-      />
+      /> */}
       <Navbar />
 
       {/* Hero Section */}
@@ -314,32 +314,42 @@ export default function PaginasWebPage() {
           <div className="grid md:grid-cols-3 gap-8 mb-16">
             <PricingCard
               title="Landing Page"
-              price="$3,900"
-              originalPrice="$5,200"
-              discount="-25%"
+              price="$8,900"
+              // originalPrice="$5,200"
+              // discount="-25%"
               features={[
-                "1 página de aterrizaje",
+                "Landing page profesional",
                 "Diseño personalizado",
+                "Dominio y hosting anual",
+                "SSL",
                 "Formulario de contacto",
                 "WhatsApp integrado",
-                "Hosting 1 año",
-                "SSL incluido",
+                "Chat IA básico o chatbot web",
+                "Optimización móvil",
+                "Soporte técnico",
+                "Actualizaciones menores",
+                "Monitoreo básico"
               ]}
               ctaText="Cotizar ahora"
               ctaHref="https://wa.me/5215540279851?text=Hola,%20me%20interesa%20el%20plan%20Landing%20Page"
             />
             <PricingCard
               title="Sitio Profesional"
-              price="$5,900"
-              originalPrice="$7,500"
-              discount="-20%"
+              price="$18,000"
+              // originalPrice="$7,500"
+              // discount="-20%"
               features={[
-                "Hasta 5 páginas",
-                "Blog integrado",
-                "SEO técnico avanzado",
-                "Panel administrador",
+                "Sitio web hasta 5 secciones",
+                "SEO técnico",
                 "Google Analytics",
-                "Soporte 3 meses",
+                "Formularios inteligentes",
+                "Integración WhatsApp",
+                "Chatbot IA básico",
+                "Soporte prioritario",
+                "Cambios mensuales",
+                "Monitoreo",
+                "Optimización continua",
+                "Mantenimiento anual"
               ]}
               ctaText="Cotizar ahora"
               ctaHref="https://wa.me/5215540279851?text=Hola,%20me%20interesa%20el%20plan%20Sitio%20Profesional"
@@ -347,16 +357,29 @@ export default function PaginasWebPage() {
             />
             <PricingCard
               title="E-commerce"
-              price="$15,200"
-              originalPrice="$17,200"
-              discount="-17%"
+              price="$20,000"
+              // originalPrice="$17,200"
+              // discount="-17%"
               features={[
-                "Tienda online completa",
-                "Carrito de compras",
-                "Pasarela de pago",
-                "Inventario básico",
-                "Envíos integrados",
-                "Capacitación incluida",
+                "Desarrollo de tienda en línea profesional",
+                "Diseño personalizado responsive (móvil, tablet y desktop)",
+                "Hasta 30 productos iniciales cargados",
+                "Carrito de compras integrado",
+                "Pasarela de pago (Stripe, Mercado Pago, PayPal o transferencia)",
+                "Configuración de envíos y zonas de cobertura",
+                "Integración con WhatsApp Business",
+                "Panel administrador autogestionable",
+                "Optimización SEO técnico inicial",
+                "Certificado SSL de seguridad",
+                "Hosting y dominio anual",
+                "Google Analytics y métricas básicas",
+                "Capacitación inicial para administración de tienda",
+                "Formularios inteligentes de contacto",
+                "Chatbot IA básico para atención inicial",
+                "Automatización básica de seguimiento de clientes",
+                "Soporte técnico prioritario",
+                "Mantenimiento preventivo y monitoreo",
+                "Actualizaciones menores incluidas"
               ]}
               ctaText="Cotizar ahora"
               ctaHref="https://wa.me/5215540279851?text=Hola,%20me%20interesa%20el%20plan%20E-commerce"
@@ -371,22 +394,18 @@ export default function PaginasWebPage() {
             <ComparisonTable />
           </AnimatedSection>
 
-          {/* Guarantee */}
-          <div className="max-w-2xl mx-auto">
-            <GuaranteeBadge />
-          </div>
         </div>
       </section>
 
       {/* FAQ */}
-      <FAQSection 
+      <FAQSection
         items={faqs}
         ctaText="Tengo otra pregunta"
         ctaHref="https://wa.me/5215540279851?text=Hola,%20tengo%20una%20pregunta%20sobre%20páginas%20web"
       />
 
       {/* Limited Offer */}
-      <section className="py-24 bg-white">
+      {/* <section className="py-24 bg-white">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <LimitedOffer
             title="Pack Lanzamiento Completo"
@@ -397,7 +416,7 @@ export default function PaginasWebPage() {
             ctaHref="https://wa.me/5215540279851?text=Hola,%20me%20interesa%20el%20Pack%20Lanzamiento%20Completo"
           />
         </div>
-      </section>
+      </section> */}
 
       {/* CTA */}
       <CTASection

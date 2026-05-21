@@ -12,7 +12,7 @@ import { SectionDivider } from "@/components/section-divider"
 import { CTASection } from "@/components/cta-section"
 import { AnimatedSection } from "@/components/animated-section"
 import { PromoBanner } from "@/components/promo-banner"
-import { TrustBadges, GuaranteeBadge } from "@/components/trust-badges"
+import { TrustBadges } from "@/components/trust-badges"
 import { SpotsCounter, PricingCard, LimitedOffer } from "@/components/urgency-elements"
 import { FAQSection } from "@/components/faq-section"
 
@@ -109,15 +109,15 @@ export default function ChatbotsPage() {
 
   return (
     <main className="min-h-screen">
-      <PromoBanner
+      {/* <PromoBanner
         text="Lanzamiento IA:"
         highlight="Demo gratuita + Setup sin costo"
         ctaText="Reclamar"
         ctaHref="https://wa.me/5215540279851?text=Hola,%20quiero%20mi%20demo%20gratuita%20de%20chatbot"
         endDate={promoEndDate}
         variant="gift"
-      />
-      <Navbar />
+      />*/}
+      <Navbar /> 
 
       {/* Hero Section */}
       <HeroSection
@@ -326,10 +326,6 @@ export default function ChatbotsPage() {
               ctaText="Cotizar"
               ctaHref="https://wa.me/5215540279851?text=Hola,%20me%20interesa%20el%20Asistente%20Virtual"
             />
-          </div>
-
-          <div className="max-w-2xl mx-auto">
-            <GuaranteeBadge />
           </div>
         </div>
       </section>

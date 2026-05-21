@@ -6,7 +6,7 @@ import { Shield, Clock, CreditCard, Headphones, Award, CheckCircle } from "lucid
 const badges = [
   { icon: Shield, text: "100% Seguro", subtext: "Datos protegidos" },
   { icon: Clock, text: "Entrega Rápida", subtext: "Cumplimos plazos" },
-  { icon: CreditCard, text: "Pago Flexible", subtext: "50% inicio, 50% final" },
+  // { icon: CreditCard, text: "Pago Flexible", subtext: "50% inicio, 50% final" },
   { icon: Headphones, text: "Soporte 24/7", subtext: "Siempre disponibles" },
 ]
 

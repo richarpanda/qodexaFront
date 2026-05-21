@@ -12,7 +12,7 @@ import { SectionDivider } from "@/components/section-divider"
 import { CTASection } from "@/components/cta-section"
 import { AnimatedSection } from "@/components/animated-section"
 import { PromoBanner } from "@/components/promo-banner"
-import { TrustBadges, GuaranteeBadge } from "@/components/trust-badges"
+import { TrustBadges } from "@/components/trust-badges"
 import { SpotsCounter, PricingCard, LimitedOffer } from "@/components/urgency-elements"
 import { FAQSection } from "@/components/faq-section"
 
@@ -109,14 +109,14 @@ export default function AutomatizacionPage() {
 
   return (
     <main className="min-h-screen">
-      <PromoBanner
+      {/* <PromoBanner
         text="Diagnóstico de automatización"
         highlight="GRATIS esta semana"
         ctaText="Agendar"
         ctaHref="https://wa.me/5215540279851?text=Hola,%20quiero%20mi%20diagnóstico%20de%20automatización%20gratis"
         endDate={promoEndDate}
         variant="limited"
-      />
+      /> */}
       <Navbar />
 
       {/* Hero Section */}
@@ -333,10 +333,6 @@ export default function AutomatizacionPage() {
               ctaText="Cotizar"
               ctaHref="https://wa.me/5215540279851?text=Hola,%20me%20interesa%20Transformación%20Digital"
             />
-          </div>
-
-          <div className="max-w-2xl mx-auto">
-            <GuaranteeBadge />
           </div>
         </div>
       </section>

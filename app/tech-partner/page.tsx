@@ -10,7 +10,7 @@ import { HeroSection } from "@/components/hero-section"
 import { SectionDivider } from "@/components/section-divider"
 import { AnimatedSection, StaggerContainer, StaggerItem } from "@/components/animated-section"
 import { PromoBanner } from "@/components/promo-banner"
-import { TrustBadges, GuaranteeBadge } from "@/components/trust-badges"
+import { TrustBadges } from "@/components/trust-badges"
 import { SpotsCounter, ComparisonTable, LimitedOffer } from "@/components/urgency-elements"
 
 const benefits = [
@@ -123,14 +123,14 @@ export default function TechPartnerPage() {
 
   return (
     <main className="min-h-screen">
-      <PromoBanner
+      {/* <PromoBanner
         text="Oferta de lanzamiento:"
         highlight="Primer mes 50% OFF + Setup GRATIS"
         ctaText="Reclamar oferta"
         ctaHref="https://wa.me/5215540279851?text=Hola,%20quiero%20la%20oferta%20de%20Tech%20Partner%2050%25%20OFF"
         endDate={promoEndDate}
         variant="gift"
-      />
+      /> */}
       <Navbar />
 
       {/* Hero Section */}
@@ -287,10 +287,6 @@ export default function TechPartnerPage() {
             <ComparisonTable />
           </AnimatedSection>
 
-          {/* Guarantee */}
-          <div className="max-w-2xl mx-auto mt-16">
-            <GuaranteeBadge />
-          </div>
         </div>
       </section>
 
