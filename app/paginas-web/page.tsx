@@ -314,9 +314,9 @@ export default function PaginasWebPage() {
           <div className="grid md:grid-cols-3 gap-8 mb-16">
             <PricingCard
               title="Landing Page"
-              price="$8,900"
-              // originalPrice="$5,200"
-              // discount="-25%"
+              price="$5,900"
+              originalPrice="$8,200"
+              discount="-25%"
               features={[
                 "Landing page profesional",
                 "Diseño personalizado",
@@ -335,9 +335,9 @@ export default function PaginasWebPage() {
             />
             <PricingCard
               title="Sitio Profesional"
-              price="$18,000"
-              // originalPrice="$7,500"
-              // discount="-20%"
+              price="$9,900"
+              originalPrice="$12,500"
+              discount="-25%"
               features={[
                 "Sitio web hasta 5 secciones",
                 "SEO técnico",
@@ -357,9 +357,9 @@ export default function PaginasWebPage() {
             />
             <PricingCard
               title="E-commerce"
-              price="$20,000"
-              // originalPrice="$17,200"
-              // discount="-17%"
+              price="$14,200"
+              originalPrice="$17,200"
+              discount="-17%"
               features={[
                 "Desarrollo de tienda en línea profesional",
                 "Diseño personalizado responsive (móvil, tablet y desktop)",
